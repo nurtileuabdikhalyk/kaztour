@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<section class="page-main" style="background-image: url( {{ objectDetail.image.url }});">
+    <div class="container">
+        <div class="for-title">
+
+                    {% if path == 'ru' %}
+            <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+                {{ objectDetail.name_ru }}
+            </h2>
+                    {% elif path == 'en' %}
+            <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+                {{ objectDetail.name_en }}
+            </h2>
+            {% else %}
+            <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+                {{ objectDetail.name }}
+            </h2>
+            {% endif %}
+        </div>
+    </div>
+</section>
+<section class="country-inner">
+    <div class="container">
+         {% if path == 'ru' %}
+        <div class="main-text">
+
+
+            <br>
+            <br>
+            <strong>{{ objectDetail.name_ru }}</strong>
+            <br>
+            <br>
+            <p>{{ objectDetail.description_ru|linebreaks }}</p>
+            <strong>Место</strong>
+            <br>
+            <p>{{ objectDetail.map }}</p>
+        </div>
+        {% elif path == 'en' %}
+         <div class="main-text">
+
+
+            <br>
+            <br>
+            <strong>{{ objectDetail.name_en }}</strong>
+            <br>
+            <br>
+            <p>{{ objectDetail.description_en|linebreaks }}</p>
+            <strong>Location</strong>
+            <br>
+            <p>{{ objectDetail.map }}</p>
+        </div>
+         {% else %}
+        <div class="main-text">
+
+           
+            <br>
+            <br>
+            <strong>{{ objectDetail.name }}</strong>
+            <br>
+            <br>
+            <p>{{ objectDetail.description|linebreaks }}</p>
+            <strong>Орналасуы</strong>
+            <br>
+            <p>{{ objectDetail.map }}</p>
+        </div>
+          {% endif %}
+        <br>
+        <br>
+        <iframe src="{{ objectDetail.map_in_google }}"
+                width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+</section>
+{% endblock content %}

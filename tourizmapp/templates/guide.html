@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="page-main" style="background-image: url( {% static 'images/images/16499408583nzfDFH7ErOtf2Xc.jpg' %});">
+    <div class="container">
+        <div class="for-title">
+            <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+
+            </h2>
+        </div>
+    </div>
+</section>
+<section class="hot-tours tours">
+    <div class="container">
+        {% if path == 'ru' %}
+         <div class="for-title text-center">
+            <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                Список гидов
+            </h2>
+
+        </div>
+        {% elif path == 'en' %}
+         <div class="for-title text-center">
+            <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                List of guides
+            </h2>
+
+        </div>
+        {% else %}
+        <div class="for-title text-center">
+            <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                Гидтер тізімі
+            </h2>
+
+        </div>
+        {% endif %}
+        <br>
+        <form method="post">
+            {% csrf_token %}
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-md-2 col-lg-2"></div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <select name="city" class="form-control" onchange="this.form.submit()" id="city">
+                             {% if path == 'ru' %}
+                            <option value="Барлық" {% if request_city == 'Барлық' %} selected {% endif %}>Город</option>
+                             {% elif path == 'en' %}
+                            <option value="Барлық" {% if request_city == 'Барлық' %} selected {% endif %}>City</option>
+                            {% else %}
+                            <option value="Барлық" {% if request_city == 'Барлық' %} selected {% endif %}>Қала</option>
+                            {% endif %}
+                            <option value="Астана" {% if request_city == 'Астана' %} selected {% endif %}>Астана</option>
+                            <option value="Алматы" {% if request_city == 'Алматы' %} selected {% endif %}>Алматы</option>
+                            <option value="Шымкент" {% if request_city == 'Шымкент' %} selected {% endif %}>Шымкент</option>
+                            <option value="Ақтөбе" {% if request_city == 'Ақтөбе' %} selected {% endif %}>Ақтөбе</option>
+                            <option value="Қарағанды" {% if request_city == 'Қарағанды' %} selected {% endif %}>Қарағанды</option>
+                            <option value="Тараз" {% if request_city == 'Тараз' %} selected {% endif %}>Тараз</option>
+                            <option value="Өскемен" {% if request_city == 'Өскемен' %} selected {% endif %}>Өскемен</option>
+                            <option value="Павлодар" {% if request_city == 'Павлодар' %} selected {% endif %}>Павлодар</option>
+                            <option value="Атырау" {% if request_city == 'Атырау' %} selected {% endif %}>Атырау</option>
+                            <option value="Семей" {% if request_city == 'Семей' %} selected {% endif %}>Семей</option>
+                            <option value="Қызылорда" {% if request_city == 'Қызылорда' %} selected {% endif %}>Қызылорда</option>
+                        </select>
+                    </div>
+
+                    <div class="col-12 col-md-4 col-lg-4">
+                        {% if path == 'ru' %}
+                        <select name="language" class="form-control" onchange="this.form.submit()" id="language">
+
+                            <option value="Барлық" {% if request_language == 'Барлық' %} selected {% endif %}>Язык</option>
+                            <option value="қазақ" {% if request_language == 'қазақ' %} selected {% endif %}>казахский</option>
+                            <option value="орысша" {% if request_language == 'орысша' %} selected {% endif %}>русский</option>
+                            <option value="ағылшынша" {% if request_language == 'ағылшынша' %} selected {% endif %}>английский</option>
+                        </select>
+                         {% elif path == 'en' %}
+                         <select name="language" class="form-control" onchange="this.form.submit()" id="language">
+                            <option value="Барлық" {% if request_language == 'Барлық' %} selected {% endif %}>Language</option>
+                            <option value="қазақ" {% if request_language == 'қазақ' %} selected {% endif %}>kazakh</option>
+                            <option value="орысша" {% if request_language == 'орысша' %} selected {% endif %}>russian</option>
+                            <option value="ағылшынша" {% if request_language == 'ағылшынша' %} selected {% endif %}>english</option>
+                       </select>
+                         {% else %}
+                        <select name="language" class="form-control" onchange="this.form.submit()" id="language">
+                            <option value="Барлық" {% if request_language == 'Барлық' %} selected {% endif %}>Тіл</option>
+                            <option value="қазақ" {% if request_language == 'қазақ' %} selected {% endif %}>қазақша</option>
+                            <option value="орысша" {% if request_language == 'орысша' %} selected {% endif %}>орысша</option>
+                            <option value="ағылшынша" {% if request_language == 'ағылшынша' %} selected {% endif %}>ағылшынша</option>
+                      </select>  {% endif %}
+
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2"></div>
+
+                </div>
+            </div>
+        </form>
+
+
+    </div>
+</section>
+
+<section class="country-inner">
+    <div class="container">
+        <div class="country-row">
+            <div class="row">
+                {% for guide in guides %}
+
+
+                                <div class="tour">
+                                     <img src="{{ guide.image.url }}" width="280px" height="410px" alt="pic">
+                                     <div class="t-inner">
+                                        <div class="info">
+                                            {% if path == 'ru' %}
+                                            <div class="place">
+                                                <p>Опыт: {{ guide.experience }} лет</p>
+                                            </div>
+                                            {% elif path == 'en' %}
+
+                                            <div class="place">
+                                                <p>Experience: {{ guide.experience }} year</p>
+                                            </div>
+                                            {% else %}
+                                            <div class="place">
+                                                <p>Тәжірибе: {{ guide.experience }} жыл </p>
+                                            </div>
+                                            {% endif %}
+                                            <div class="tit">
+                                          {{ guide.first_name }} {{ guide.last_name }}
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% endblock content %}

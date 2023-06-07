@@ -1,0 +1,175 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+
+<section class="page-main" style="background-image: url( {% static 'images/images/1647794703zcQVZPtQPeoH9aTR.jpg' %});">
+    <div class="container">
+        <div class="for-title">
+            <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+
+            </h2>
+        </div>
+    </div>
+</section>
+
+<section class="directions">
+    <div class="container">
+        <div class="for-title text-center">
+
+            {% if path == 'ru' %}
+            <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                Туробъекты
+            </h2>
+            {% elif path == 'en' %}
+
+            <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                Tour objects
+            </h2>
+            {% else %}
+            <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                Туробъектілер
+            </h2>
+            {% endif %}
+
+        </div>
+        <div class="dr-row position-relative">
+            <div class="plain pln-1 position-absolute d-none d-xl-block">
+                <img src="{% static 'images/plain1.png' %}" alt="plain">
+            </div>
+            <div class="plain pln-2 position-absolute d-none d-xl-block">
+                <img src="{% static 'images/plain2.png' %}" alt="plain">
+            </div>
+            {% if path == 'ru' %}
+            <div class="row">
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail_ru' 1 %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{% static 'images/turkertan-historical.jpg' %}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">Природа</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail_ru' 2 %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{% static 'images/WhatsApp_Image_.jpeg' %}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">Архитектура</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail_ru' 3 %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{% static 'images/astana-opera.jpg' %}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">Культура</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail_ru' 4 %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{% static 'images/mangystau-boz-zhira.jpg' %}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">Исторические объекты</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+
+            </div>
+            {% elif path == 'en' %}
+            <div class="row">
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail_en' 1 %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{% static 'images/turkertan-historical.jpg' %}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">Nature</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail_en' 2 %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{% static 'images/WhatsApp_Image_.jpeg' %}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">Architecture</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail_en' 3 %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{% static 'images/astana-opera.jpg' %}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">Culture</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail_en' 4 %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{% static 'images/mangystau-boz-zhira.jpg' %}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">Historical sites</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+
+            </div>
+            {% else %}
+            <div class="row">
+                {% for tour in tours %}
+
+                <div class="col-12 col-sm-6 col-md-4 col-lg-6"><a href="{% url 'tourist_spot_detail' tour.id %}">
+                    <div class="dr-block">
+                        <div class="pic">
+                            <img src="{{ tour.image.url }}" alt="pic">
+                        </div>
+                        <div class="info">
+                            <div class="country" style="padding:10px 0px;">{{ tour.name }}</div>
+
+                        </div>
+                    </div>
+                </a>
+                </div>
+
+                {% endfor %}
+
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}

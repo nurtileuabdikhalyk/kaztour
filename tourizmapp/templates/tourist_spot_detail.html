@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<section class="page-main" style="background-image: url( {{ tour.image.url }});">
+    <div class="container">
+        <div class="for-title">
+            <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+
+            </h2>
+        </div>
+    </div>
+</section>
+<section class="directions">
+    <div class="container">
+        <div class="for-title text-center">
+            <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                {{ tour }}
+            </h2>
+
+        </div>
+    </div>
+</section>
+<section class="country-inner">
+    <div class="container">
+        <div class="country-row">
+            <div class="row">
+                {% for obj in objectsDetails %}
+                <div class="col-12 col-md-6 col-lg-4">
+                    {% if path == 'ru' %}
+                     <a class="c-block" href="{% url 'object_detail_ru' obj.pk %}">
+                        <div class="pic">
+                            <img src="{{ obj.image.url }}" alt="pic">
+                        </div>
+                        <div class="c-info">
+                            <div class="c-top">
+                                <div class="tit">{{ obj.name_ru }}</div>
+                            </div>
+
+
+                        </div>
+                    </a>
+                    {% elif path == 'en' %}
+                    <a class="c-block" href="{% url 'object_detail_en' obj.pk %}">
+                        <div class="pic">
+                            <img src="{{ obj.image.url }}" alt="pic">
+                        </div>
+                        <div class="c-info">
+                            <div class="c-top">
+                                <div class="tit">{{ obj.name_en }}</div>
+                            </div>
+
+
+                        </div>
+                    </a>
+                    {% else %}
+                    <a class="c-block" href="{% url 'object_detail' obj.pk %}">
+                        <div class="pic">
+                            <img src="{{ obj.image.url }}" alt="pic">
+                        </div>
+                        <div class="c-info">
+                            <div class="c-top">
+                                <div class="tit">{{ obj.name }}</div>
+                            </div>
+
+
+                        </div>
+                    </a>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% endblock content %}

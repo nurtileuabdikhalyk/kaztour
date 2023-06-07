@@ -1,0 +1,382 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title> KazTour Қазақстандық тур агенттігі </title>
+    <link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'plugins/swiper/swiper.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style-1.css' %}?t=1676116953">
+
+    <script src="{% static 'plugins/jquery/jquery-3.2.0.min.js' %}"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src=" {% static 'plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'plugins/swiper/swiper.min.js' %}"></script>
+    <script src=" {% static 'js/my-1.js' %}" ?t=1676116953"></script>
+    <link rel="icon" href="{% static 'favicon.png' %}" type="image/x-icon">
+    <meta name="google-site-verification" content="0F3PPklsdoPGybdS6OWKZUxYQ3TXk-wIN_TMGXDiv8w">
+</head>
+
+<body>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+        (function (m, e, t, r, i, k, a) {
+            m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+            m[i].l = 1 * new Date(); k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+        })
+            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js' %}"", "ym");
+
+   ym(88109665, "init", {
+                trackLinks: true,
+                accurateTrackBounce: true
+            });
+
+</script>
+<noscript>
+    <div><img src="{% static 'watch/88109665' %}" style="position:absolute; left:-9999px;" alt=""></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+<!--***БОКОВОЕ МОБ МЕНЮ***-->
+<div class="for-mob-menu d-xl-none">
+    <div class="manage">
+        <div class="logo">
+            <a href="{% url 'home' %}">
+                <img src="{% static 'images/logo.png' %}" alt="logo" style="width: 65px;">
+            </a>
+            <a href="tel:+7 (747)-972-35-45" style="margin-left:20px; text-decoration: none; font-weight: bold;">
+                <img src="{% static 'images/hi3.svg' %}" alt="icon" style="width:20px; height: 20px;">+7 (700) 222
+                10 22 </a>
+        </div>
+    </div>
+    <div class="humb">
+        <div class="dv-1"></div>
+        <div class="dv-2"></div>
+        <div class="dv-3"></div>
+    </div>
+    <div class="mobile-menu">
+        <div class="sliding-menu">
+            <div class="control-panel">
+                <div class="back-btn d-flex align-items-center">
+                    <div class="arrow mr-3"></div>
+                    <p>Назад</p>
+                </div>
+            </div>
+            <div class="sliding-inner"></div>
+        </div>
+        <div class="for-other"></div>
+    </div>
+    <div class="menu-back"></div>
+</div>
+<!--//боковое моб. меню-->
+
+<div class="wrapper">
+    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F"
+       class="test whatsapp-fixed" onclick="ym(88109665,'reachGoal','click_whatsap')">
+        <img src="{% static 'images/hi3.svg' %}" alt="whatsapp">
+    </a>
+    <div class="header">
+        <div class="h-top">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    {% if path == 'ru' %}
+                    <div class="col-12 col-xl-6 address-pc">
+                        <div class="address address-move">
+                            <p>г. Алматы, Аль-Фараби 71</p>
+                        </div>
+                    </div>
+                    {% elif path == 'en' %}
+                    <div class="col-12 col-xl-6 address-pc">
+                        <div class="address address-move">
+                            <p>Almaty, Al-Farabi 71</p>
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="col-12 col-xl-6 address-pc">
+                        <div class="address address-move">
+                            <p>Алматы қаласы, Аль-Фараби 71</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                    <div class="col-12 col-xl-6 h-contacts-pc">
+                        <div class="contacts-move contacts">
+                            <div class="link insta me-xl-3">
+                                <a href="">
+                                    <div class="icon">
+                                        <img src="{% static 'images/hi1.svg' %}" alt="link">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="link d-flex align-items-center me-xl-5">
+                                <div class="icon flex-shrink-0 me-4">
+                                    <img src="{% static 'images/hi2.svg' %}" alt="icon">
+
+                                </div>
+                                <a href="mailto:kaznu.kz@gmail.com">kaznu.kz@gmail.com</a>
+                            </div>
+                            <div class="link d-flex align-items-center fs-12 fw-bold">
+                                <div class="icon flex-shrink-0 me-2">
+                                    <img src="{% static 'images/hi3.svg' %}" alt="icon">
+                                </div>
+                                <a class="test2" href="#">+7 (747) 972 35 45</a>
+
+                                <a href="{% url 'home' %}">
+                                    <li><img src="https://visitkazakhstan.kz//media/img/lang_kk.gif" alt=""></li>
+                                </a>
+                                <a href="{% url 'home_ru' %}">
+                                    <li><img src="https://visitkazakhstan.kz//media/img/lang_ru.gif" alt=""></li>
+                                </a>
+                                <a href="{% url 'home_en' %}">
+                                    <li><img src="https://visitkazakhstan.kz//media/img/lang_en.gif" alt=""></li>
+                                </a>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="h-bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-auto">
+                        <div class="logo">
+                            <a href="{% url 'home' %}">
+                                <img src="{% static 'images/logo.png' %}" alt="logo">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col for-menu h-menu-pc">
+
+                        {% if path == 'ru' %}
+                        <div class="menu h-menu-move">
+                            <div class="link">
+                                <a href="{% url 'home_ru' %}">
+                                    Главная
+                                </a>
+                            </div>
+                            <div class="link drop-link">
+                                <a href="#">
+                                    Города
+                                </a>
+                                <div class="drop-menu">
+                                    {% for cit in city %}
+                                    <div>
+                                        <form action="{% url 'country_ru' %}" method="get">
+
+                                            <button type="submit" name=id value="{{cit.name}}">
+
+                                                <img src="{{ cit.img }}"
+                                                     style="width: 30px;">&nbsp;&nbsp;{{cit.name}}
+                                            </button>
+
+
+                                        </form>
+
+                                    </div>
+
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                            <div class="link">
+                                <a href="{% url 'tourist_spot_ru' %}">
+                                    Туробъекты
+                                </a>
+                            </div>
+                            <div class="link">
+                                <a href="{% url 'guide_ru' %}">
+                                    Гиды
+                                </a>
+                            </div>
+                            <div class="link">
+                                <a href="{% url 'contact_ru' %}">
+                                    Контакты
+                                </a>
+                            </div>
+
+
+                        </div>
+                        {% elif path == 'en' %}
+                        <div class="menu h-menu-move">
+                            <div class="link">
+                                <a href="{% url 'home_en' %}">
+                                    Home
+                                </a>
+                            </div>
+                            <div class="link drop-link">
+                                <a href="#">
+                                    Cities
+                                </a>
+                                <div class="drop-menu">
+                                    {% for cit in city %}
+                                    <div>
+                                        <form action="{% url 'country_en' %}" method="get">
+
+                                            <button type="submit" name=id value="{{cit.name}}">
+
+                                                <img src="{{ cit.img }}"
+                                                     style="width: 30px;">&nbsp;&nbsp;{{cit.name}}
+                                            </button>
+
+
+                                        </form>
+
+                                    </div>
+
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                            <div class="link">
+                                <a href="{% url 'tourist_spot_en' %}">
+                                    Tour objects
+                                </a>
+                            </div>
+                            <div class="link">
+                                <a href="{% url 'guide_en' %}">
+                                    Guides
+                                </a>
+                            </div>
+                            <div class="link">
+                                <a href="{% url 'contact_en' %}">
+                                    Contact
+                                </a>
+                            </div>
+
+
+                        </div>
+                        {% else %}
+                        <div class="menu h-menu-move">
+                            <div class="link">
+                                <a href="{% url 'home' %}">
+                                    Бастапқы бет
+                                </a>
+                            </div>
+                            <div class="link drop-link">
+                                <a href="#">
+                                    Қалалар
+                                </a>
+                                <div class="drop-menu">
+                                    {% for cit in city %}
+                                    <div>
+                                        <form action="{% url 'country' %}" method="get">
+
+                                            <button type="submit" name=id value="{{cit.name}}">
+
+                                                <img src="{{ cit.img }}"
+                                                     style="width: 30px;">&nbsp;&nbsp;{{cit.name}}
+                                            </button>
+
+
+                                        </form>
+
+                                    </div>
+
+                                    {% endfor %}
+                                </div>
+                            </div>
+
+                            <div class="link">
+                                <a href="{% url 'tourist_spot' %}">
+                                    Туробъектілер
+                                </a>
+                            </div>
+                            <div class="link">
+                                <a href="{% url 'guide' %}">
+                                    Гидтер
+                                </a>
+                            </div>
+                            <div class="link">
+                                <a href="{% url 'contact' %}">
+                                    Байланыс
+                                </a>
+                            </div>
+
+
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {% block content %}
+
+    {% endblock content %}
+
+
+    <footer class="footer text-sm-center">
+        <div class="container">
+            <div class="logo mb-4 mb-md-5">
+                <a href="{% url 'home' %}">
+                    <img src="{% static 'images/logo.png' %}" alt="logo">
+                </a>
+            </div>
+            <div class="contacts">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-sm-auto">
+                        <div class="link insta me-xl-3">
+                            <a href="">
+                                <div class="icon">
+                                    <img src="{% static 'images/hi1.svg' %}" alt="link">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-auto">
+                        <div class="link d-flex align-items-center me-xl-5">
+                            <div class="icon flex-shrink-0 me-2">
+                                <img src="{% static 'images/hi2.svg' %}" alt="icon">
+                            </div>
+                            <a href="mailto:kaznu.kz@gmail.com">kaznu.kz@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-auto">
+                        <div class="link d-flex align-items-center fs-18 fw-bold">
+                            <div class="icon flex-shrink-0 me-2">
+                                <img src="{% static 'images/hi3.svg' %}" alt="icon">
+                            </div>
+                            <a href="tel:+7 (747) 972 35 45">+7 (747) 972 35 45</a>
+                        </div>
+                    </div>
+
+                    {% if path == 'ru' %}
+                    <div class="col-12 col-sm-auto">
+                        <div class="address">
+                            <p>г. Алматы, Аль-Фараби 71</p>
+                        </div>
+                    </div>
+                    {% elif path == 'en' %}
+
+                     <div class="col-12 col-xl-6 address-pc">
+                        <div class="address address-move">
+                            <p>Almaty, Al-Farabi 71</p>
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="col-12 col-sm-auto">
+                        <div class="address">
+                            <p>Алматы қаласы, Аль-Фараби 71</p>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+
+</body>
+
+</html>

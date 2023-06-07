@@ -1,0 +1,544 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<section class="page-main" style="background-image: url({{item.img}} );">
+  <div class="container">
+    <div class="for-title">
+      <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+        {{item.name}}
+      </h2>
+      {% if path == 'ru' %}
+
+      <p class="mt-3 fs-xl-22 fs-md-18 fs-16">Туры {{item.name}} по 100го тенге.</p>
+                            {% elif path == 'en'  %}
+      <p class="mt-3 fs-xl-22 fs-md-18 fs-16">Tours {{item.name}} starts from 100 thousand tenge.</p>
+                            {% else %}
+      <p class="mt-3 fs-xl-22 fs-md-18 fs-16">Турлар {{item.name}} бойынша 100мың теңгеден басталады.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+
+<style>
+  .boxed-btn2 {
+    background: #2b4f7e;
+    color: #ffffff;
+    display: inline-block;
+    padding: 18px 24px;
+    width: 120px;
+    height: 50px;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #1b1747;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  /* line 166, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+  .boxed-btn2:hover {
+    background: #da6f6f;
+    color: #131313 !important;
+  }
+
+  /* line 170, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+  .boxed-btn2:focus {
+    outline: none;
+  }
+</style>
+
+
+
+<section class="country-inner">
+  <div class="container">
+    <div class="main-text">
+
+      {% if path == 'ru' %}
+       <div class="icon-row">
+        <div class="icon">
+          <img src="/static/images/icon-time-left.svg">
+          <br>
+          <p>Время: {{ current_time }} </p>
+        </div>
+        <div class="icon">
+          <img src="/static/images/icon-spots.svg">
+          <br>
+          <p>Влажность: {{ weather.humidity }}%</p>
+        </div>
+        <div class="icon">
+          <img src="{{ weather.icon }}">
+          <p>Температура: {{ weather.temperature }} °C</p>
+        </div>
+      </div>
+                            {% elif path == 'en'  %}
+       <div class="icon-row">
+        <div class="icon">
+          <img src="/static/images/icon-time-left.svg">
+          <br>
+          <p>Time: {{ current_time }} </p>
+        </div>
+        <div class="icon">
+          <img src="/static/images/icon-spots.svg">
+          <br>
+          <p>Humidity: {{ weather.humidity }}%</p>
+        </div>
+        <div class="icon">
+          <img src="{{ weather.icon }}">
+          <p>Temperature: {{ weather.temperature }} °C</p>
+        </div>
+      </div>
+                            {% else %}
+      <div class="icon-row">
+        <div class="icon">
+          <img src="/static/images/icon-time-left.svg">
+          <br>
+          <p>Уақыт: {{ current_time }} </p>
+        </div>
+        <div class="icon">
+          <img src="/static/images/icon-spots.svg">
+          <br>
+          <p>Ылғалдылық: {{ weather.humidity }}%</p>
+        </div>
+        <div class="icon">
+          <img src="{{ weather.icon }}">
+          <p>Температура: {{ weather.temperature }} °C</p>
+        </div>
+      </div>
+{% endif %}
+      <br> <br>
+
+      {% if path == 'ru' %}
+
+      <strong>{{item.text_ru}}</strong>
+       {% elif path == 'en'  %}
+      <strong>{{item.text_en}}</strong>
+      {% else %}
+      <strong>{{item.text}}</strong>
+
+{% endif %}
+
+      <style>
+        .icon-row {
+          display: flex;
+          justify-content: space-between;
+          /* расположение иконок в ряду */
+          align-items: center;
+          /* вертикальное выравнивание иконок */
+          margin-top: 20px;
+        }
+
+        .icon {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          font-size: 14px;
+          color: #333;
+        }
+
+        .icon img {
+          width: 50px;
+          height: 50px;
+        }
+
+        .icon p {
+          margin-top: 5px;
+          font-weight: bold;
+          font-size: 16px;
+        }
+      </style>
+
+
+
+{% if path == 'ru' %}
+      <p> {{item.descriptions_ru|linebreaks}} </p>
+
+       {% elif path == 'en'  %}
+      <p> {{item.descriptions_en|linebreaks}} </p>
+      {% else %}
+      <p> {{item.descriptions|linebreaks}} </p>
+
+{% endif %}
+    </div>
+    <div class="accordion" id="info-acc">
+
+{% if path == 'ru' %}
+        <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-5">
+          ВОЗВРАЩЕНИЕ ДОМОЙ | ПРИБЫТИЕ
+        </button>
+        <div id="i-5" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <p>
+                Обратный полет: {{item.name}} на обратном рейсе
+                онлайн-регистрация недоступна. Туристы могут пройти
+                {{cit.name}} бесплатная регистрация в а/п.
+                <br><br>
+                 ВНИМАНИЕ! Для Транзита через Стамбул действуют правила перечисленный выше, вакцина Sputnik не признана в
+                Украине (требуется один из тестов, для въезда)
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+       {% elif path == 'en'  %}
+        <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-5">
+          RETURN HOME | ARRIVAL
+        </button>
+        <div id="i-5" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <p>
+                Return flight: {{item.name }} on the return flight
+                online registration is not available. Tourists can pass
+                {{city.name }} free registration in a/P.
+                <br><br>
+                 Attention! For Transit through Istanbul, the rules listed above apply, the Sputnik vaccine is not recognized in
+                Ukraine (requires one of the tests to enter)
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        {% else %}
+      <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-5">
+          ҮЙГЕ ҚАЙТУ | КЕЛУ
+        </button>
+        <div id="i-5" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <p>
+                Кері ұшу: {{item.name}} қайту рейсінде
+                онлайн тіркелу қол жетімді емес. Туристер өте алады
+                {{cit.name}} а/п-да тегін тіркелу.
+                <br><br>
+                ВНИМАНИЕ! Для Транзита через Стамбул действуют правила перечисленный выше, вакцина Sputnik не признана в
+                Украине (требуется один из тестов, для въезда)
+
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+{% endif %}
+
+
+{% if path == 'ru' %}
+
+      <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-6">
+         ДЛЯ ВЪЕЗДА В КАЗАХСТАН
+        </button>
+        <div id="i-6" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+             <p>
+                В соответствии с постановлением от 18 февраля 2022 года № 11:
+                <br><br>
+                Все пассажиры, прибывающие в Казахстан из-за рубежа (старше 5 лет)
+                ПЦР-тест, проведенный не ранее 72 часов на момент пересечения государственной границы, имеет отрицательный результат
+                должен предоставить справку. Получил ревакцинацию или полный курс вакцины (если второй компонент
+                не более 6 месяцев после получения, но через 14 дней после ревакцинации)
+                обязательное ПЦР-тестирование для граждан приостановлено
+                <br><br>
+                Туроператор не несет ответственности:
+                <br><br>
+                - За отказ от проведения ПЦР-тестов (требуется авиакомпаниями);
+                <br><br>
+                - за изменение правил авиакомпаний или проведение тестов "в последний момент" ;
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+       {% elif path == 'en'  %}
+        <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-6">
+         TO ENTER KAZAKHSTAN
+        </button>
+        <div id="i-6" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+             <p>
+                According to Resolution No. 11 of February 18, 2022:
+                <br><br>
+                All passengers arriving in Kazakhstan from foreign countries (over 5 years old) of the Republic of Kazakhstan
+                At the time of crossing the state border, there is a negative result of a PCR test performed no earlier than 72 hours
+                he must provide a certificate. Revaccination or having received a full course of the vaccine (if the second component
+                if no more than 6 months after receipt, but 14 days after revaccination)
+                mandatory PCR testing for citizens has been suspended
+                <br><br>
+                The tour operator is not responsible:
+                <br><br>
+                - For refusal to conduct PCR tests (required by airlines);
+                <br><br>
+                - for changing the rules of airlines or conducting tests "at the last moment;
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+        {% else %}
+      <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-6">
+          ҚАЗАҚСТАНҒА КІРУ ҮШІН
+        </button>
+        <div id="i-6" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <p>
+                2022 жылғы 18 ақпандағы № 11 қаулыға сәйкес:
+                <br><br>
+                Шет елдерден Қазақстанға келетін барлық жолаушылар (5 жастан асқан) Қазақстан Республикасының
+                Мемлекеттік шекарасын кесіп өту сәтінде 72 сағаттан ерте емес жасалған ПТР-тестінің теріс нәтижесі бар
+                анықтаманы ұсынуы тиіс. Ревакцинация немесе вакцинаның толық курсын алған (егер екінші компонентті
+                алғаннан кейін 6 айдан аспаса, бірақ ревакцинациядан кейін 14 күн өткен болса) елге келетін ҚР
+                азаматтары үшін міндетті ПТР-тестілеу тоқтатылды
+                <br><br>
+                Туроператор жауапты емес:
+                <br><br>
+                - ПТР сынақтарын өткізуден бас тартқаны үшін (авиакомпаниялар талап етеді);
+                <br><br>
+                - авиакомпаниялардың ережелерін өзгерткені немесе "соңғы сәтте" тесттер өткізгені үшін;
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+{% endif %}
+        {% if path == 'ru' %}
+
+      <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-8">
+          {{item.name }} расположение
+        </button>
+        <div id="i-8" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <div style="position:relative;overflow:hidden;"><a
+                  href="https://yandex.kz/maps/21106/turkestan/?utm_medium=mapframe&utm_source=maps"
+                  style="color:#eee;font-size:12px;position:absolute;top:0px;">Туркестан</a><a
+                  href="https://yandex.kz/maps/geo/53168220/?ll=68.366653%2C43.290254&utm_medium=mapframe&utm_source=maps&z=12.18"
+                  style="color:#eee;font-size:12px;position:absolute;top:14px;">Туркестан — Яндекс Карты</a><iframe
+                  src="{{ item.map }}"
+                  width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+        {% elif path == 'en'  %}
+        <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-8">
+          {{item.name }} location
+        </button>
+        <div id="i-8" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <div style="position:relative;overflow:hidden;"><a
+                  href="https://yandex.kz/maps/21106/turkestan/?utm_medium=mapframe&utm_source=maps"
+                  style="color:#eee;font-size:12px;position:absolute;top:0px;">Туркестан</a><a
+                  href="https://yandex.kz/maps/geo/53168220/?ll=68.366653%2C43.290254&utm_medium=mapframe&utm_source=maps&z=12.18"
+                  style="color:#eee;font-size:12px;position:absolute;top:14px;">Туркестан — Яндекс Карты</a><iframe
+                  src="{{ item.map }}"
+                  width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+         {% else %}
+      <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-8">
+          {{item.name }} орналасқан орны
+        </button>
+        <div id="i-8" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <div style="position:relative;overflow:hidden;"><a
+                  href="https://yandex.kz/maps/21106/turkestan/?utm_medium=mapframe&utm_source=maps"
+                  style="color:#eee;font-size:12px;position:absolute;top:0px;">Туркестан</a><a
+                  href="https://yandex.kz/maps/geo/53168220/?ll=68.366653%2C43.290254&utm_medium=mapframe&utm_source=maps&z=12.18"
+                  style="color:#eee;font-size:12px;position:absolute;top:14px;">Туркестан — Яндекс Карты</a><iframe
+                  src="{{ item.map }}"
+                  width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+{% endif %}
+
+
+
+
+
+        {% if path == 'ru' %}
+      <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-7">
+         {{item.name}} достопримечательности:
+        </button>
+        <div id="i-7" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <p> {{item.descriptions_1_ru|linebreaks}} </p>
+              <img style="width: 1000px; height: 1000px;" src="{{ item.img_1 }}">
+            </div>
+          </div>
+        </div>
+      </div>
+
+        {% elif path == 'en'  %}
+<div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-7">
+      {{item.name}} attractions:
+        </button>
+        <div id="i-7" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <p> {{item.descriptions_1_en|linebreaks}} </p>
+              <img style="width: 1000px; height: 1000px;" src="{{ item.img_1 }}">
+            </div>
+          </div>
+        </div>
+      </div>
+
+         {% else %}
+      <div class="card">
+        <button class="btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#i-7">
+          {{item.name}} мекенінің көрікті жерлері:
+        </button>
+        <div id="i-7" class="collapse" data-bs-parent="#info-acc">
+          <div class="card-body">
+            <div class="text">
+              <p> {{item.descriptions_1|linebreaks}} </p>
+              <img style="width: 1000px; height: 1000px;" src="{{ item.img_1 }}">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+{% endif %}
+
+    </div>
+
+        {% if path == 'ru' %}
+      <div class="order mt-5 fs-20 fw-bold">
+      <a class="cl-btn blue-btn" href="#">
+        {{item.name}} туры на территорию
+      </a>
+    </div>
+        {% elif path == 'en'  %}
+      <div class="order mt-5 fs-20 fw-bold">
+      <a class="cl-btn blue-btn" href="#">
+        {{item.name}} tours
+      </a>
+    </div>
+         {% else %}
+    <div class="order mt-5 fs-20 fw-bold">
+      <a class="cl-btn blue-btn" href="#">
+        {{item.name}} мекеніне турлар
+      </a>
+    </div>
+
+{% endif %}
+
+    <div class="country-row">
+      <div class="row">
+        {% for hotel in hotels %}
+        <div class="col-12 col-md-6 col-lg-4">
+          <a class="c-block" href="#">
+            <div class="pic">
+              <img src="{{hotel.img}}" alt="pic">
+            </div>
+            <div class="c-info">
+              <div class="c-top">
+                <div class="tit">{{ hotel.name }}</div>
+              </div>
+
+              <div class="c-top">
+                <p>Бағасы</p>
+                <div class="price">
+                </div>
+              </div>
+              <div class="c-top">
+                <div class="price">
+                  <div class="tit">
+                    <form action="{% url 'request' %}" method="get">
+                      <button class="boxed-btn2" type="submit" name=id value="{{hotel.name}}"> {{ hotel.price }} KZT
+                      </button>
+                    </form>
+                  </div>
+
+                </div>
+                <div class="price">
+                  <div class="tit">
+                    <form action="{% url 'request' %}" method="get">
+                      <button class="boxed-btn2" type="submit" name=id value="{{hotel.name}}"> {{ hotel.price_usd }} USD
+                      </button>
+                    </form>
+                  </div>
+                </div>
+
+              </div>
+              <div class="c-top">
+                <div class="price">
+                  <div class="tit">
+                    <form action="{% url 'request' %}" method="get">
+                      <button class="boxed-btn2" type="submit" name=id value="{{hotel.name}}"> {{ hotel.price_rus }} RUB
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div class="price">
+                  <div class="tit">
+                    <form action="{% url 'request' %}" method="get">
+                      <button class="boxed-btn2" type="submit" name=id value="{{hotel.name}}"> {{ hotel.price_eur }} EUR
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+              <div class="c-bottom">
+                <div class="cb-block">
+                  <p>Стандартты қонақ үй ассортименті</p>
+                  <p>Екі адамға арналған бөлме</p>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+{% endblock %}

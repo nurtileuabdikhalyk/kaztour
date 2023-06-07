@@ -1,0 +1,1852 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="main">
+            <div class="slider">
+                <!-- Slider -->
+                <div class="swiper-main swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="bg-pic">
+                                <img src="{% static 'images/slice1.jpg' %}" alt="pic">
+                            </div>
+                            {% if path == 'ru' %}
+                            <div class="container">
+                                <div class="swiper-inner">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-7">
+                                            <div class="title fw-bold fs-xl-40 fs-md-30 fs-25 text-uppercase">
+                                                Добро пожаловать на сайт Kazakhstan Travel
+                                            </div>
+                                            <div class="tit fs-16 fs-xl-22 fs-md-20 mt-4">
+                                                Казахстан от экологического туризма до делового туризма  <br class="d-none d-md-inline">
+                                                имеет значительный потенциал для развития всех видов туризма.
+                                            </div>
+                                            <div class="order mt-5">
+                                                <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                   Получите скидку на Тур
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% elif path == 'en'  %}
+                            <div class="container">
+                                <div class="swiper-inner">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-7">
+                                            <div class="title fw-bold fs-xl-40 fs-md-30 fs-25 text-uppercase">
+                                                Welcome to the Kazakhstan Travel website
+                                            </div>
+                                            <div class="tit fs-16 fs-xl-22 fs-md-20 mt-4">
+                                                Kazakhstan from ecological tourism to business tourism  <br class="d-none d-md-inline">
+                                                it has a significant potential for the development of all types of tourism
+                                            </div>
+                                            <div class="order mt-5">
+                                                <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                   Get a discount on the Tour
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% else %}
+                            <div class="container">
+                                <div class="swiper-inner">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-7">
+                                            <div class="title fw-bold fs-xl-40 fs-md-30 fs-25 text-uppercase">
+                                                Kazakhstan Travel сайтына қош келдіңіз
+                                            </div>
+                                            <div class="tit fs-16 fs-xl-22 fs-md-20 mt-4">
+                                                Қазақстан экологиялық туризмнен бастап iскерлік туризмге дейін  <br class="d-none d-md-inline"> 
+                                                туризмнің барлық түрлерiнің дамуы үшiн елеулi әлеуетке ие
+                                            </div>
+                                            <div class="order mt-5">
+                                                <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                   Турға жеңілдік алыңыз
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-pic">
+                                <img src="{% static 'images/slice2.jpg' %}" alt="pic">
+                            </div>
+                            {% if path == 'ru' %}
+
+                            <div class="container">
+                                <div class="swiper-inner">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-7">
+                                            <div class="title fw-bold fs-xl-40 fs-md-30 fs-25 text-uppercase">
+                                               Культурно-познавательный туризм <br>
+                                            </div>
+                                            <div class="tit fs-16 fs-xl-22 fs-md-20 mt-4">
+                                                По объему памятников археологии, истории и архитектуры Казахстан считается настоящим «музеем под открытым небом».
+                                            </div>
+                                            <div class="order mt-5">
+                                                <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                     Получение скидки на Тур
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                             {% elif path == 'en'  %}
+                            <div class="container">
+                                <div class="swiper-inner">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-7">
+                                            <div class="title fw-bold fs-xl-40 fs-md-30 fs-25 text-uppercase">
+                                               Cultural and educational tourism <br>
+                                            </div>
+                                            <div class="tit fs-16 fs-xl-22 fs-md-20 mt-4">
+                                                According to the volume of monuments of archeology, history and architecture, Kazakhstan is considered a real "open-air museum".
+                                            </div>
+                                            <div class="order mt-5">
+                                                <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                     Getting discounts on Tours
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                             {% else %}
+                            <div class="container">
+                                <div class="swiper-inner">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-7">
+                                            <div class="title fw-bold fs-xl-40 fs-md-30 fs-25 text-uppercase">
+                                                Мәдени-танымдық туризм <br>
+                                            </div>
+                                            <div class="tit fs-16 fs-xl-22 fs-md-20 mt-4">
+                                                Археология, тарих және сәулет ескерткіштерінің көлемі бойынша Қазақстан нағыз «ашық аспан астындағы мұражай» болып саналады. 
+                                            </div>
+                                            <div class="order mt-5">
+                                                <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                     Турға жеңілдік алу
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-pic">
+                                <img src="{% static 'images/slice3.jpg' %}" alt="pic">
+                            </div>
+                            <div class="container">
+                                <div class="swiper-inner">
+                                    <div class="row align-items-center">
+                                        <div class="col-12 col-md-7">
+                                            
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button d-none d-xl-block">
+                    <div class="swiper-button-next main-next"></div>
+                    <div class="swiper-button-prev main-prev"></div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination main-pagination"></div>
+            </div>
+        </section>
+        <div>
+            <div class="tv-search-form tv-moduleid-182826"></div>
+            <script type="text/javascript" src="module/init.js"></script>
+        </div>
+        <br>
+<style>
+.tour-block h1{
+    font-size:34px !important;
+    font-weight: bold;
+}
+.tour-block p{
+    line-height: 1.5;
+}
+.tour-block .container{
+    padding:0px;
+}
+@media (max-width:767px) {
+    .tour-block h1{
+    font-size:22px !important;
+    font-weight: bold;
+}
+.tour-block .container{
+    margin-top:20px;
+}
+}
+</style>
+        <div class="container tour-block">
+            <div class="row">
+                 {% if path == 'ru' %}
+                <div class="col-xs-12 col-lg-6">
+                    <h1>Добро пожаловать на сайт Kazakhstan Travel.</h1>
+                    <br><br>
+                    <p>
+                        Казахстан важен для развития всех видов туризма, от экологического туризма до Делового
+                        обладает потенциалом. Сюда входят богатая история нашего народа и исторические памятники, сохранившиеся на территории нашей страны
+                        я считаю, что большое количество археологических памятников создает большие возможности. Благодаря необычному географическому положению
+                         В Казахстане можно найти удивительные уголки природы, где не ступают человеческие ноги. Это развитие туристской инфраструктуры,
+                        на основе постоянного совершенствования визового режима и других обстоятельств.
+
+<br><br>По объему памятников археологии, истории и архитектуры Казахстан считается настоящим «музеем под открытым небом». Туристы могут посетить древние города вдоль Великого Шелкового пути и увидеть петроглифы Тамгалы бронзового века или знаменитые могильники Мангистау.
+                        <br><br>
+                        Познакомиться с современной жизнью Казахстана будет удобнее в городах Астана, Алматы, Шымкент, Усть-Каменогорск и Актау, так как туристическая инфраструктура предлагает услуги на любой вкус и бюджет.<br><br>
+                        Количество и разнообразие территорий, природа которых сохранилась практически в целости и сохранности, будут представлять особый интерес для любителей экологического туризма Казахстана. На территории Казахстана 12 национальных природных парков и 10 заповедников.            </p>                </div>
+                {% elif path == 'en'  %}
+                <div class="col-xs-12 col-lg-6">
+                    <h1>Welcome to the Kazakhstan Travel website. </h1>
+                    <br><br>
+                    <p>
+                        Kazakhstan is important for the development of all types of tourism, from eco-tourism to Business
+                        has potential. This includes the rich history of our people and historical monuments preserved on the territory of our country
+                        I believe that a large number of archaeological sites creates great opportunities. Due to the unusual geographical location
+                         In Kazakhstan, you can find amazing corners of nature where human feet do not tread. This is the development of tourist infrastructure,
+                        based on the continuous improvement of the visa regime and other circumstances.
+
+<br><br>In terms of the volume of monuments of archeology, history and architecture, Kazakhstan is considered a real "open-air museum". Tourists can visit the ancient cities along the Great Silk Road and see the tamgaly petroglyphs of the Bronze Age or the famous Mangystau burials.
+
+                        <br><br>It will be more convenient to get acquainted with the modern life of Kazakhstan in the cities of Astana, Almaty, Shymkent, Ust-Kamenogorsk and Aktau, because the tourist infrastructure provides services for every taste and budget.
+
+                        <br><br>The number and variety of the territory, the nature of which is practically preserved intact, will be of particular interest to lovers of eco-tourism in Kazakhstan. On the territory of Kazakhstan there are 12 national natural parks and 10 reserves.         </p>
+                </div>
+                {% else %}
+                <div class="col-xs-12 col-lg-6">
+                    <h1>Kazakhstan Travel<br> сайтына қош келдіңіз. </h1>
+                    <br><br>
+                    <p>
+                        Қазақстан экологиялық туризмнен бастап iскерлік туризмге дейін туризмнің барлық түрлерiнің дамуы үшiн елеулi 
+                        әлеуетке ие. Бұған халқымыздың бай тарихы мен еліміздің аумағында сақталып қалған тарихи ескерткiштер 
+                        мен археологиялық орындардың жиыны үлкен мүмкiндiк туғызады. Ерекше географиялық жағдайдың арқасында
+                         Қазақстаннан адам аяғы баспаған табиғаттың ғажайып бұрыштарын табуға болады. Бұл туристтiк инфрақұрылым дамуының, 
+                        визалық режимнің үнемі жетілдіріліп отыруының және басқа да жағдайлардың негізінде жүзеге асады.
+
+<br><br>Археология, тарих және сәулет ескерткіштерінің көлемі бойынша Қазақстан нағыз «ашық аспан астындағы мұражай» болып саналады. Туристер Ұлы Жібек жолы бойындағы көне қалаларға барып, қола дәуіріндегі Тамғалы петроглифтарын немесе әйгілі Маңғыстау қорымдарын көре алады.
+<br><br>Қазақстанның заманауи өмірімен Астана, Алматы, Шымкент, Өскемен және Ақтау қалаларында танысу қолайлырақ болады, себебі туристік инфраструктура кез-келген талғам мен бюджетке қарай қызметтерді ұсынады.
+<br><br>Іс жүзінде табиғаты бүлінбеген түрде сақталған аумақтың саны мен әр түрлілігі Қазақстанды экологиялық туризм әуесқойлары үшін ерекше қызықтыратын болады. Қазақстан аумағында 12 ұлттық табиғи парк және 10 қорық бар.            </p>
+                </div>
+                {% endif %}
+                <div class="col-xs-12 col-lg-6">
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-12">
+                                <img src="{% static 'images/images/1669002750NVN6zJK81ncWeswV.jpg' %}" width="100%">
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="row">
+                            <div class="col-xs-12 col-lg-6">
+                                <img src="{% static 'images/images/1669002750T5q5oQAC6yrm7mrD.jpg' %}" width="100%">
+                            </div>
+                            <div class="col-xs-12 col-lg-6">
+                                <img src="{% static 'images/images/1669002750Q6xo35nj0oUWbPaF.jpg' %}" width="100%">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <section class="directions">
+            <div class="container">
+               {% if path == 'ru' %}
+                 <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                        Города
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3">живописные города страны</div>
+                </div>
+                 {% elif path == 'en'  %}
+                 <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                        Cities
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3">picturesque cities of the country</div>
+                </div>
+                 {% else %}
+                <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                        Қалалар
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3">еліміздің көркем қалалары</div>
+                </div>
+                 {% endif %}
+                <div class="dr-row position-relative">
+                    <div class="plain pln-1 position-absolute d-none d-xl-block">
+                        <img src="{% static 'images/plain1.png' %}" alt="plain">
+                    </div>
+                    <div class="plain pln-2 position-absolute d-none d-xl-block">
+                        <img src="{% static 'images/plain2.png' %}" alt="plain">
+                    </div>
+                    <div class="row">
+                        {% for cit in city %}
+                        <div class="col-12 col-sm-6 col-md-4 col-lg-6">
+                            <div class="dr-block">
+                                <div class="pic">
+                                    <img src="{{cit.img}}" alt="pic">
+                                </div>
+                                <div class="info">
+                                    <div class="country">{{cit.name}}</div>
+                                    <div class="text">
+                                        <p>
+                                            
+                                           {{cit.text}}
+                                        </p>
+                                    </div>
+                                </div>
+                        {% if path == 'ru' %} <div class="order">
+                                    <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                         Получение скидки 20%
+                                    </a>
+                                </div>
+                        {% elif path == 'en' %}<div class="order">
+                                    <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                        Getting a 20% discount
+                                    </a>
+                                </div>
+                                {% else %}
+                                <div class="order">
+                                    <a class="cl-btn test" onclick="ym(88109665,'reachGoal','click_whatsap')" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                         20% жеңілдік алу
+                                    </a>
+                                </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% endfor %}            
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="credit scrolls">
+           {% if path == 'ru' %}
+
+            <div class="container">
+                <div class="cr-block">
+                    <div class="titles">
+                        <div class="for-title ftt-1">
+                            <div class="title tt-1 fs-xl-40 fs-md-30 fs-25 fw-bold text-uppercase">
+                                Вы можете оплатить тур в рассрочку
+                            </div>
+                            <div class="tit fs-xl-30 fs-md-25 fs-18">
+                               Туры в каждый город Казахстана с рассрочкой 0-0-12
+                            </div>
+                        </div>
+                        <div class="for-title ftt-2">
+                            <div class="title tt-1 fs-xl-40 fs-md-30 fs-25 fw-bold text-uppercase">
+                                Получите тур в кредит
+                            </div>
+                            <div class="tit fs-xl-30 fs-md-25 fs-18">
+                                ЭКСКЛЮЗИВНО! только у нас всего 4%
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" method="post" class="form fs-xl-18">
+                        <p class="mb-3">Чтобы оставить заявку, оставьте свой номер</p>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-auto">
+                                <div class="inputblock">
+                                    <input name="phone" type="text" placeholder="Тел" class="form-control" required="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-auto mt-4 mt-sm-0">
+                                <div class="inputblock">
+                                    <div class="order">
+                                        <button class="cl-btn w-100" type="submit">
+                                            Сброс заявки
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="tit fw-xl-25 fs-md-20 fs-16 text-uppercase text-center">
+                    ДОСТУПНЫЕ СЧАСТЛИВЫЕ ПОЕЗДКИ
+                </div>
+                <div class="plain d-none d-md-block">
+                    <img src="{% static 'images/big-plain.webp' %}" alt="plain">
+                </div>
+            </div>
+              {% elif path == 'en'  %}
+            <div class="container">
+                <div class="cr-block">
+                    <div class="titles">
+                        <div class="for-title ftt-1">
+                            <div class="title tt-1 fs-xl-40 fs-md-30 fs-25 fw-bold text-uppercase">
+                                You can pay for the tour in installments
+                            </div>
+                            <div class="tit fs-xl-30 fs-md-25 fs-18">
+                              Tours to each city of Kazakhstan with installments 0-0-12
+                            </div>
+                        </div>
+                        <div class="for-title ftt-2">
+                            <div class="title tt-1 fs-xl-40 fs-md-30 fs-25 fw-bold text-uppercase">
+                                Get a tour on credit
+                            </div>
+                            <div class="tit fs-xl-30 fs-md-25 fs-18">
+                                EXCLUSIVE! only we have only 4%
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" method="post" class="form fs-xl-18">
+                        <p class="mb-3">To submit a request, leave your number</p>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-auto">
+                                <div class="inputblock">
+                                    <input name="phone" type="text" placeholder="Тел" class="form-control" required="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-auto mt-4 mt-sm-0">
+                                <div class="inputblock">
+                                    <div class="order">
+                                        <button class="cl-btn w-100" type="submit">
+                                           Resetting the application
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="tit fw-xl-25 fs-md-20 fs-16 text-uppercase text-center">
+                    AFFORDABLE HAPPY RIDES
+                </div>
+                <div class="plain d-none d-md-block">
+                    <img src="{% static 'images/big-plain.webp' %}" alt="plain">
+                </div>
+            </div>
+             {% else %}
+            <div class="container">
+                <div class="cr-block">
+                    <div class="titles">
+                        <div class="for-title ftt-1">
+                            <div class="title tt-1 fs-xl-40 fs-md-30 fs-25 fw-bold text-uppercase">
+                                Турды бөліп төлей аласыз
+                            </div>
+                            <div class="tit fs-xl-30 fs-md-25 fs-18">
+                                Қазақстанның әрбір қаласына турлар 0-0-12 бөліп төлеумен
+                            </div>
+                        </div>
+                        <div class="for-title ftt-2">
+                            <div class="title tt-1 fs-xl-40 fs-md-30 fs-25 fw-bold text-uppercase">
+                                НЕСИЕге ТУР алыңыз
+                            </div>
+                            <div class="tit fs-xl-30 fs-md-25 fs-18">
+                                ЭКСКЛЮЗИВНО! тек бізде ғана небәрі 4%
+                            </div>
+                        </div>
+                    </div>
+                    <form action="" method="post" class="form fs-xl-18">
+                        <p class="mb-3">Өтінім қалдыру үшін, номеріңізді қалдырыңыз</p>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-auto">
+                                <div class="inputblock">
+                                    <input name="phone" type="text" placeholder="Тел" class="form-control" required="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-auto mt-4 mt-sm-0">
+                                <div class="inputblock">
+                                    <div class="order">
+                                        <button class="cl-btn w-100" type="submit">
+                                            Өтінім тастау
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="tit fw-xl-25 fs-md-20 fs-16 text-uppercase text-center">
+                    ҚОЛЖЕТІМДІ БАҚЫТТЫ САПАРЛАР 
+                </div>
+                <div class="plain d-none d-md-block">
+                    <img src="{% static 'images/big-plain.webp' %}" alt="plain">
+                </div>
+            </div>
+            {% endif %}
+        </section>
+
+        <section class="hot-tours tours">
+              {% if path == 'ru' %}
+
+            <div class="container">
+                <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                        Туры
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3">Алматы / Астана / Шымкент / Актау / Туркестан</div>
+                </div>
+
+                <div class="slider">
+                    <div class="swiper-container swiper-multiply">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/astana.jpg' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>В направлении Астаны</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F"> Туры в Астану</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                                От 169.000 тг
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Оставить заявку
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/almaty.jpg' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>По маршруту Алматы</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Туры в Алматы</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                               От 198.000 тг
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Оставить заявку
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/aktau.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>По направлению Актау</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Туры в Актау</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                               От 135.000 тг
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Оставить заявку
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/turkestan.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>По Туркестанскому маршруту</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Туры в Туркестан</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                               От 404.000 тг
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Оставить заявку
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/aktau.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>По маршруту г.Актау </p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Туры в Актау</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                                От 254.000 тг
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                   Оставить заявку
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button suad-arrows d-none d-xl-block">
+                        <div class="swiper-button-next multiply-next"></div>
+                        <div class="swiper-button-prev multiply-prev"></div>
+                    </div>
+                    <div class="swiper-pagination multiply-pagination d-md-none"></div>
+                </div>
+            </div>
+            {% elif path == 'en'  %}
+
+            <div class="container">
+                <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                        Туры
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3">Алматы / Астана / Шымкент / Аrтау / Туркестан</div>
+                </div>
+
+                <div class="slider">
+                    <div class="swiper-container swiper-multiply">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/astana.jpg' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>In the direction of Astana</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F"> Tours to Astana</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                               From 169,000 tenge
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Submit your application
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/almaty.jpg' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>On the route Almaty</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Tours to Almaty</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                               From 198.000 tenge
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Submit your application
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/aktau.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>In the direction of Aktau</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Tours to Aktau</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                               From 135,000 tenge
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Submit your application
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/turkestan.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>On the Turkestan route</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Tours to Turkestan</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                               From 404.000 tenge
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Submit your application
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/aktau.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>On the route of Aktau </p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Tours to Aktau</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                               From 254.000 tenge
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                   Submit your application
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button suad-arrows d-none d-xl-block">
+                        <div class="swiper-button-next multiply-next"></div>
+                        <div class="swiper-button-prev multiply-prev"></div>
+                    </div>
+                    <div class="swiper-pagination multiply-pagination d-md-none"></div>
+                </div>
+            </div>
+             {% else %}
+            <div class="container">
+                <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25">
+                        Турлар
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3">Алматы / Астана / Шымкент / Ақтау / Туркестан</div>
+                </div>
+
+                <div class="slider">
+                    <div class="swiper-container swiper-multiply">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/astana.jpg' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>Астана бағытына</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F"> Астана қаласына турлар</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                                169.000 тг-ден 
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Өтінім қалдыру
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/almaty.jpg' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>Алматы бағыты бойынша</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Алматы қаласына турлар</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                                198.000 тг-ден 
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Өтінім қалдыру
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/aktau.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>Ақтау бағыты бойынша</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Ақтау қаласына турлар</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                                135.000 тг-ден 
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Өтінім қалдыру
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/turkestan.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>Түркістан бағыты бойынша</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Түркістан қаласына турлар</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                                404.000 тг-ден 
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Өтінім қалдыру
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="tour">
+                                    <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F" class="pic test">
+                                        <img src="{% static 'images/aktau.jfif' %}" alt="pic">
+                                    </a>
+                                    <div class="t-inner">
+                                        <div class="info">
+                                            <div class="place">
+                                                <div class="icon">
+                                                    <img src="{% static 'images/plain-min.png' %}" alt="icon">
+                                                </div>
+                                                <p>Ақтау қаласының бағыты бойынша</p>
+                                            </div>
+                                            <div class="tit">
+                                                <a href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">Ақтау қаласына турлар</a>
+                                            </div>
+                                        </div>
+                                        <div class="t-bottom">
+                                            <div class="price">
+                                                254.000 тг-ден 
+                                            </div>
+                                            <div class="order">
+                                                <a class="cl-btn test" href="https://api.whatsapp.com/send?phone=77479723545&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C%2C%20%D1%8F%20%D1%85%D0%BE%D1%87%D1%83%20%D0%BE%D1%82%D0%B4%D0%BE%D1%85%D0%BD%D1%83%D1%82%D1%8C%2C%20%D0%BF%D0%BE%D0%B4%D0%B1%D0%B5%D1%80%D0%B5%D0%BC%20%D1%82%D1%83%D1%80%3F">
+                                                    Өтінім қалдыру
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button suad-arrows d-none d-xl-block">
+                        <div class="swiper-button-next multiply-next"></div>
+                        <div class="swiper-button-prev multiply-prev"></div>
+                    </div>
+                    <div class="swiper-pagination multiply-pagination d-md-none"></div>
+                </div>
+            </div>
+             {% endif %}
+        </section>
+<style>
+.b-p2{
+    font-size:18px;
+    font-weight: bold;
+    margin-top:18px;
+}
+.b-p1{
+    font-size:16px;
+    margin-top:18px;
+}
+.block-preim{
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    padding:20px 20px;
+}
+.block-preim p{
+    font-size:14px;
+    height: 60px;
+}
+.block-preim .container, .block-preim .col-xs-3, .block-preim .col-xs-9{
+    padding:0px;
+}
+@media (max-width:767px) {
+    .block-preim .row{
+    display:inherit!important;
+}
+.block-preim .container, .block-preim .col-xs-3, .block-preim .col-xs-9{
+    text-align: center;
+}
+}
+</style>
+        {% if path == 'ru' %}
+<div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+                    <h2>Зачем путешествовать с нами? </h2>
+                    <p class="b-p1">Куда лететь отдых, Как правильно забронировать билеты и отель, где искать развлечения, как добраться до места – наша компания все организует. Мы определенно можем предложить вам незабываемые путешествия и отдых по самым выгодным ценам.  </p>
+                    <p class="b-p2">Одно из наших основных преимуществ:</p>
+                </div>
+            </div>
+        </div>
+        {% elif path == 'en'  %}
+<div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+                    <h2>Why travel with us? </h2>
+                    <p class="b-p1">Where to go for a vacation, How to book tickets and a hotel correctly, where to look for entertainment, how to get to the place – our company organizes everything. We can definitely offer you unforgettable trips and vacations at the best prices. </p>
+                    <p class="b-p2">One of our main advantages:</p>
+                </div>
+            </div>
+        </div>
+{% else %}
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+                    <h2>Неліктен бізбен бірге саяхаттау керек? </h2>
+                    <p class="b-p1">Қайда ұшу керек демалу, билеттер мен қонақүйді қалай дұрыс брондау керек, ойын – сауықты қайдан іздеу керек, орынға қалай жетуге болады-біздің компания бәрін ұйымдастырады. Біз сөзсіз сізге ең тиімді бағамен ұмытылмас саяхат пен демалысты ұсына алады.  </p>
+                    <p class="b-p2">Біздің негізгі артықшылықтарымыздың бірі:</p>
+                </div>
+            </div>
+        </div>
+{% endif %}
+        <br>
+{% if path == 'ru' %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m1.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Регулярные скидки на популярные туры.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m2.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Есть много направлений для казахстанцев.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m3.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Возможность покупки тура в рассрочку.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m4.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Эксклюзивное предложение-туры в кредит под 4%.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% elif path == 'en'  %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m1.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Regular discounts on popular tours.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m2.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>There are many destinations for Kazakhstanis.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m3.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>The possibility of buying a tour in installments.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m4.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Exclusive offer-tours on credit at 4%.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% else %}
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m1.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Танымал турларға тұрақты жеңілдіктер.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m2.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Қазақстандықтар үшін көптеген бағыттар бар.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m3.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Турды бөліп-бөліп сатып алу мүмкіндігі.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m4.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Эксклюзивті ұсыныс – 4% несиеге турлар.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% endif %}
+        <br>
+
+{% if path == 'ru' %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m5.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Поддержка персонального менеджера на всех этапах.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m6.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Простой процесс выбора тура.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m7.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Готовим и отправляем документы на поездку.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m8.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Продажа горящих туров со скидкой 20%.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% elif path == 'en'  %}
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m5.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Support of a personal manager at all stages.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m6.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>A simple process of choosing a tour.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m7.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>We prepare and send the documents for the trip.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m8.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Sale of burning tours with a 20% discount.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+{% else %}
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m5.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Барлық кезеңдерде жеке менеджерді қолдау.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m6.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Турды таңдаудың оңай процесі.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m7.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Біз саяхатқа құжаттарды дайындаймыз және жібереміз.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-3">
+                    <div class="block-preim">
+                        <div class="container">
+                            <div class="row" style="display: flex;align-items: center;">
+                                <div class="col-xs-3 col-lg-3">
+                                    <img src="{% static 'images/m8.svg' %}">
+                                </div>
+                                <div class="col-xs-9 col-lg-9">
+                                    <p>Жанып жатқан турларды 20% жеңілдікпен сату.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+{% endif %}
+<br>
+{% if path == 'ru' %}
+<div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+
+                    <p class="b-p1"><br>Мы предлагаем выгодное сотрудничество и делаем все, чтобы ваш отдых начался не с момента посадки в самолет, а с момента выбора тура.
+<br>Наш менеджер не только подберет правильный тур и расскажет обо всех его особенностях, но и забронирует его для вас. Все, что вам нужно сделать, это оплатить тур и собрать чемодан. Мы подготовим все документы, отправим их вам, и вы сможете отправиться в долгожданное путешествие без особых забот.</p>
+
+                </div>
+            </div>
+        </div>
+        {% elif path == 'en'  %}
+<div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+
+                    <p class="b-p1"><br>We offer profitable cooperation and do everything to ensure that your vacation begins not from the moment you board the plane, but from the moment you choose a tour.
+<br>Our manager will not only select the right tour and tell you about all its features, but also book it for you. All you have to do is pay for the tour and pack your suitcase. We will prepare all the documents, send them to you, and you will be able to go on a long-awaited journey without much worries.</p>
+
+                </div>
+            </div>
+        </div>
+{% else %}
+<div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12">
+
+                    <p class="b-p1"><br>Біз тиімді ынтымақтастықты ұсынамыз және сіздің демалысыңыз ұшаққа
+                         қонған сәттен емес, турды таңдаған сәттен басталуы үшін бәрін жасаймыз. 
+<br>Біздің менеджер дұрыс турды таңдап, оның барлық ерекшеліктері туралы айтып қана қоймай, оны сізге брондайды. Сізге тек турға ақы төлеу және чемодан жинау ғана қалады. Біз барлық құжаттарды дайындаймыз, оларды сізге жібереміз, және сіз көп уайымсыз көптен күткен сапарға шыға аласыз.</p>
+                    
+                </div>
+            </div>
+        </div>
+{% endif %}
+
+   <br><br>
+        <section class="photos">
+            <div class="container">
+                <div class="ph-row">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-xl-5 col-xxl-auto">
+                            <div class="slider">
+                                <div class="obj obj-1 position-absolute">
+                                    <img src="{% static 'images/ft-1.png' %}" alt="obj">
+                                </div>
+                                <div class="obj obj-2 position-absolute">
+                                    <img src="{% static 'images/ft-2.png' %}" alt="obj">
+                                </div>
+                                <div class="swiper-container swiper-photos">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/16388768206vKzDSrjZPNkeLsP.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820frNB6sfUcTZAxBLm.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820NvmV3b7HEzrX7mLq.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/16388768207cbXtPo2oHdO7Tqu.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820f3Ci4WVHYfbROOZa.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820lzWC3wX5tmbDXkLk.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820yARl5U1y9EOSROEj.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/16388768200ZebYTY928gO8JzN.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820lxpNGQd68tOw6Jgs.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820boMrjzMVlCKc5CdW.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820jSZV6UHRTkrdQ46m.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/163887682080EuUhVdeG6rlgu1.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="photo">
+                                                <img src="{% static 'images/1638876820q0Rx70r7LURh0DHm.webp' %}" alt="photo">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="swiper-button">
+                                    <div class="swiper-button-prev photos-prev"></div>
+                                    <div class="swiper-pagination photos-pagination"></div>
+                                    <div class="swiper-button-next photos-next"></div>
+                                </div>
+                            </div>
+                        </div>
+
+{% if path == 'ru' %}
+                        <div class="col-12 col-md-6 col-xl-5 mt-4 mt-md-0">
+                            <div class="ph-block px-xxl-4 pt-xxl-4">
+                                <h2 class="title fs-xxl-40 fs-xl-35 fs-md-30 fs-25 fw-bold">
+                                    Фотографии наших туристов
+                                </h2>
+                                <div class="text fs-xl-20 fs-md-18 fs-16">
+                                    <p class="fs-xl-22 fs-md-20 fs-18 mb-3 mb-md-4">Если вы восхищаетесь фотографиями <br class="d-none d-xl-inline"> наших туристов, скорее оставляйте заявку</p>
+                                    <p class="opacity-75">Ваш личный менеджер <br class="d-none d-xl-inline"> вам подберут тур мечты</p>
+                                </div>
+                                <form action="" method="post" class="form fs-xl-18">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6">
+                                            <div class="inputblock">
+                                                <input c="" name="phone" type="text" placeholder="Тел" class="form-control" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                                            <div class="inputblock">
+                                                <div class="order">
+                                                    <button class="cl-btn w-100 blue-btn" type="submit">
+                                                        Отправить
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        {% elif path == 'en' %}
+                        <div class="col-12 col-md-6 col-xl-5 mt-4 mt-md-0">
+                            <div class="ph-block px-xxl-4 pt-xxl-4">
+                                <h2 class="title fs-xxl-40 fs-xl-35 fs-md-30 fs-25 fw-bold">
+                                    Photos of our tourists
+                                </h2>
+                                <div class="text fs-xl-20 fs-md-18 fs-16">
+                                    <p class="fs-xl-22 fs-md-20 fs-18 mb-3 mb-md-4">If you admire the photos <br class="d-none d-xl-inline"> our tourists, rather leave a request</p>
+                                    <p class="opacity-75">Your personal manager <br class="d-none d-xl-inline"> they will pick up a dream tour for you</p>
+                                </div>
+                                <form action="" method="post" class="form fs-xl-18">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6">
+                                            <div class="inputblock">
+                                                <input c="" name="phone" type="text" placeholder="Тел" class="form-control" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                                            <div class="inputblock">
+                                                <div class="order">
+                                                    <button class="cl-btn w-100 blue-btn" type="submit">
+                                                        Send
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        {% else %}
+                        <div class="col-12 col-md-6 col-xl-5 mt-4 mt-md-0">
+                            <div class="ph-block px-xxl-4 pt-xxl-4">
+                                <h2 class="title fs-xxl-40 fs-xl-35 fs-md-30 fs-25 fw-bold">
+                                    Біздің туристердің суреттері
+                                </h2>
+                                <div class="text fs-xl-20 fs-md-18 fs-16">
+                                    <p class="fs-xl-22 fs-md-20 fs-18 mb-3 mb-md-4">Егер сіз фотосуреттерге таң қалсаңыз <br class="d-none d-xl-inline"> өтінім қалдырыңыз</p>
+                                    <p class="opacity-75">Сіздің жеке менеджеріңіз <br class="d-none d-xl-inline"> сізге арман турын таңдап береді</p>
+                                </div>
+                                <form action="" method="post" class="form fs-xl-18">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-6">
+                                            <div class="inputblock">
+                                                <input c="" name="phone" type="text" placeholder="Тел" class="form-control" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-sm-6 mt-4 mt-sm-0">
+                                            <div class="inputblock">
+                                                <div class="order">
+                                                    <button class="cl-btn w-100 blue-btn" type="submit">
+                                                        Жіберу
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="plan">
+            {% if path == 'ru' %}
+            <div class="container">
+
+                <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25 tt-none">
+                       Спланируйте отпуск с KazTours
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3 opacity-75 bg-opacity-50">
+                        Гарантированная поддержка вашего личного менеджера на всех этапах отпуска
+                    </div>
+                </div>
+                <div class="pl-row position-relative">
+                    <div class="line position-absolute start-50 top-50 translate-middle">
+                        <img src="{% static 'images/line.webp' %}" alt="line">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl1.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Выбор</div>
+                                    <p>Выберите направление или позвоните менеджеру он поможет</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl2.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Бронирование и оплата</div>
+                                    <p>Мы закажем вам тур, вы оплатите полностью</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl3.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Отдых</div>
+                                    <p>Мы отправим готовые документы и вы отправитесь в незабываемое путешествие</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% elif path == 'en' %}
+
+            <div class="container">
+
+                <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25 tt-none">
+                       Plan your vacation with Kaztour
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3 opacity-75 bg-opacity-50">
+                        Guaranteed support of your personal manager at all stages of your vacation
+                    </div>
+                </div>
+                <div class="pl-row position-relative">
+                    <div class="line position-absolute start-50 top-50 translate-middle">
+                        <img src="{% static 'images/line.webp' %}" alt="line">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl1.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Choice</div>
+                                    <p>Choose a direction or call the manager he will help</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl2.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Booking and payment</div>
+                                    <p>We will book you a tour, you will pay in full</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl3.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Rest</div>
+                                    <p>We will send the finished documents and you will go on an unforgettable journey</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% else %}
+            <div class="container">
+
+                <div class="for-title text-center">
+                    <h2 class="title fs-xl-40 fs-md-30 fs-25 tt-none">
+                        KazTours көмегімен демалысты жоспарлаңыз
+                    </h2>
+                    <div class="fs-xl-30 fs-md-25 fs-18 mt-3 opacity-75 bg-opacity-50">
+                        Сіздің жеке менеджеріңізге демалыстың барлық кезеңдерінде кепілдендірілген қолдау
+                    </div>
+                </div>
+                <div class="pl-row position-relative">
+                    <div class="line position-absolute start-50 top-50 translate-middle">
+                        <img src="{% static 'images/line.webp' %}" alt="line">
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl1.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Таңдау</div>
+                                    <p>Бағытты таңдаңыз немесе менеджерге қоңырау шалыңыз ол көмектеседі</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl2.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Брондау және төлеу</div>
+                                    <p>Біз сізге турға тапсырыс береміз, сіз толық төлем жасайсыз</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="pl-block d-flex align-items-center">
+                                <div class="icon flex-shrink-0 me-3 p-3">
+                                    <img src="{% static 'images/pl3.svg' %}" alt="icon">
+                                </div>
+                                <div class="text">
+                                    <div class="tit fw-bold fs-xl-22 fs-md-20 fs-18 mb-2">Демалу</div>
+                                    <p>Біз дайын құжаттарды жібереміз және сіз ұмытылмас сапарға шығасыз</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </section>
+
+        {% endblock %}
+
+    

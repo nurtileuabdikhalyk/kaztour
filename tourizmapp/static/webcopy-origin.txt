@@ -1,0 +1,720 @@
+Uri: https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\s\opensans\v34\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1y4n.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\s\opensans\v34\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1y4n.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\s\opensans\v34\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0C4n.ttf
+Content Type: font/ttf
+
+Uri: https://mc.yandex.ru/watch/88109665
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\watch\88109665
+Content Type: image/gif
+
+Uri: https://tourvisor.ru/module/init.js
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\module\init.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\index.htm
+Content Type: text/html
+
+Uri: https://webtours.kz/country
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country.html
+Content Type: text/html
+
+Uri: https://webtours.kz/country/10
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country\10.html
+Content Type: text/html
+
+Uri: https://webtours.kz/country/11
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country\11.html
+Content Type: text/html
+
+Uri: https://webtours.kz/country/4
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country\4.html
+Content Type: text/html
+
+Uri: https://webtours.kz/country/5
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country\5.html
+Content Type: text/html
+
+Uri: https://webtours.kz/country/6
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country\6.html
+Content Type: text/html
+
+Uri: https://webtours.kz/country/7
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country\7.html
+Content Type: text/html
+
+Uri: https://webtours.kz/country/8
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country\8.html
+Content Type: text/html
+
+Uri: https://webtours.kz/country/9
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\country\9.html
+Content Type: text/html
+
+Uri: https://webtours.kz/css/style.css?t=1676116951
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\css\style.css
+Content Type: text/css
+
+Uri: https://webtours.kz/css/style.css?t=1676116953
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\css\style-1.css
+Content Type: text/css
+
+Uri: https://webtours.kz/css/style.css?t=1676116956
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\css\style-2.css
+Content Type: text/css
+
+Uri: https://webtours.kz/css/style.css?t=1676116957
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\css\style-3.css
+Content Type: text/css
+
+Uri: https://webtours.kz/css/style.css?t=1676116958
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\css\style-4.css
+Content Type: text/css
+
+Uri: https://webtours.kz/favicon.png
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\favicon.png
+Content Type: image/png
+
+Uri: https://webtours.kz/images/1638876248KICU4uqrw4KlW5md.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876248KICU4uqrw4KlW5md.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/16388768200ZebYTY928gO8JzN.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\16388768200ZebYTY928gO8JzN.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/16388768206vKzDSrjZPNkeLsP.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\16388768206vKzDSrjZPNkeLsP.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/16388768207cbXtPo2oHdO7Tqu.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\16388768207cbXtPo2oHdO7Tqu.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/163887682080EuUhVdeG6rlgu1.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\163887682080EuUhVdeG6rlgu1.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820boMrjzMVlCKc5CdW.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820boMrjzMVlCKc5CdW.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820f3Ci4WVHYfbROOZa.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820f3Ci4WVHYfbROOZa.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820frNB6sfUcTZAxBLm.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820frNB6sfUcTZAxBLm.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820jSZV6UHRTkrdQ46m.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820jSZV6UHRTkrdQ46m.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820lxpNGQd68tOw6Jgs.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820lxpNGQd68tOw6Jgs.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820lzWC3wX5tmbDXkLk.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820lzWC3wX5tmbDXkLk.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820NvmV3b7HEzrX7mLq.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820NvmV3b7HEzrX7mLq.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820q0Rx70r7LURh0DHm.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820q0Rx70r7LURh0DHm.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638876820yARl5U1y9EOSROEj.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638876820yARl5U1y9EOSROEj.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638877103UZEoeejlKGslf6ln.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638877103UZEoeejlKGslf6ln.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638877167XtOEme1iNGsJ2lic.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638877167XtOEme1iNGsJ2lic.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638877219GTRM2EaPjdpkwHY3.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638877219GTRM2EaPjdpkwHY3.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638877273SZFJyaFl4v5HWU5g.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638877273SZFJyaFl4v5HWU5g.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638877354v316wWQSDpbM2WTd.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638877354v316wWQSDpbM2WTd.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/16388774112gpF81tdF9BUWEUL.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\16388774112gpF81tdF9BUWEUL.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/1638877488rolbAcVAzoM8Q1PA.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\1638877488rolbAcVAzoM8Q1PA.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/big-plain.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\big-plain.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/country/6022b29b460a19ddbdc0c8874fd3fcbb.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\country\6022b29b460a19ddbdc0c8874fd3fcbb.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/credit-bg.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\credit-bg.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/cst1.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\cst1.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/footer-bg.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\footer-bg.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/ft-1.png
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\ft-1.png
+Content Type: image/png
+
+Uri: https://webtours.kz/images/ft-2.png
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\ft-2.png
+Content Type: image/png
+
+Uri: https://webtours.kz/images/hi1.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\hi1.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/hi2.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\hi2.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/hi3.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\hi3.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/images/1647161215mmlbEc9FWtqe3UvB.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647161215mmlbEc9FWtqe3UvB.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647173209IKzp12QuGAeLnp9y.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647173209IKzp12QuGAeLnp9y.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647173439aRAGq86JEkmWmTx2.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647173439aRAGq86JEkmWmTx2.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647173549rbbz8TLXJSzVZJkG.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647173549rbbz8TLXJSzVZJkG.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647173715CKhvbTVsIKcRMPMF.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647173715CKhvbTVsIKcRMPMF.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16471738388VIZkXSDv1Cdut47.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16471738388VIZkXSDv1Cdut47.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647173919iWUvBZaAsMspKkmq.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647173919iWUvBZaAsMspKkmq.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647174127SgcBaiBsnHenASdQ.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647174127SgcBaiBsnHenASdQ.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647174191sU8gz7TgX56HpXrb.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647174191sU8gz7TgX56HpXrb.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647174285hANMlOwMu6PwyeHk.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647174285hANMlOwMu6PwyeHk.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647174349GFIG8uXH2Pd4DaAY.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647174349GFIG8uXH2Pd4DaAY.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16474998583VQZHAsIE9hRbJ37.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16474998583VQZHAsIE9hRbJ37.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647794703zcQVZPtQPeoH9aTR.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647794703zcQVZPtQPeoH9aTR.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647795464LmRSmo17WMA9gwwI.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647795464LmRSmo17WMA9gwwI.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647795554oXT4Nn0pWCM1y7cw.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647795554oXT4Nn0pWCM1y7cw.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647795635IXJ8bsg8Rso7Aehj.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647795635IXJ8bsg8Rso7Aehj.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647795706D6U3EqbqEqe1HTZH.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647795706D6U3EqbqEqe1HTZH.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16477958584CIYppxpLd7J9jdo.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16477958584CIYppxpLd7J9jdo.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647795952iEuEFfGnExQzBbQ4.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647795952iEuEFfGnExQzBbQ4.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647796086q3smWxniovOi7qDw.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647796086q3smWxniovOi7qDw.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647796167yoDGGdvAZulcp73e.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647796167yoDGGdvAZulcp73e.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647796253A7uAy1PV5VftGYFA.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647796253A7uAy1PV5VftGYFA.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1647796330eDj0zkD0MrGYYdqH.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1647796330eDj0zkD0MrGYYdqH.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1648139297crjkEQPqpaQG0QgZ.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1648139297crjkEQPqpaQG0QgZ.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16481402180qvdQWLZZgu22OMc.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16481402180qvdQWLZZgu22OMc.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1648140297py7iyql0OaHNh8aX.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1648140297py7iyql0OaHNh8aX.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1648140384z2nM7J5U5ETLgpBl.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1648140384z2nM7J5U5ETLgpBl.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1648140488joyrE04saCfnyT4V.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1648140488joyrE04saCfnyT4V.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1648140586BpHadXZM0fWfVU0U.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1648140586BpHadXZM0fWfVU0U.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1648140853lHiD5W5HYgz2jQf9.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1648140853lHiD5W5HYgz2jQf9.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1648141016xQwXlia1B9l6MFe8.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1648141016xQwXlia1B9l6MFe8.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649939929sGCBldl6USYsrLPB.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649939929sGCBldl6USYsrLPB.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16499400512zjiLJsmPmlrE9B5.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16499400512zjiLJsmPmlrE9B5.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649940112SnnLg949IY58Ekcz.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649940112SnnLg949IY58Ekcz.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/164994022678iNr9fIYHkmfhwX.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\164994022678iNr9fIYHkmfhwX.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649940299TiD7jVBxDkeYddgh.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649940299TiD7jVBxDkeYddgh.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649940629zGTIASG5WkKR83Fp.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649940629zGTIASG5WkKR83Fp.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16499406848pki47kNdN9MaEui.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16499406848pki47kNdN9MaEui.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649940744qwFyaJ8mJ4kAw5WC.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649940744qwFyaJ8mJ4kAw5WC.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649940800d2uVEzQMLoCjkOWL.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649940800d2uVEzQMLoCjkOWL.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16499408583nzfDFH7ErOtf2Xc.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16499408583nzfDFH7ErOtf2Xc.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16499526860INHxu2zXP2lhQEm.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16499526860INHxu2zXP2lhQEm.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16499526860rkSvVpDD21IyCZM.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16499526860rkSvVpDD21IyCZM.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16499526861PwMWYWqBoIS3JJO.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16499526861PwMWYWqBoIS3JJO.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/164995268665mBBLRoNCa6FrF8.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\164995268665mBBLRoNCa6FrF8.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16499526867Q2ogjtMfyXjpNA0.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16499526867Q2ogjtMfyXjpNA0.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649952686FVwepUA2RKCsHWdv.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649952686FVwepUA2RKCsHWdv.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649952686HaueevBIIkI9gqya.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649952686HaueevBIIkI9gqya.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649952686oiJ57AIyObegmjtF.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649952686oiJ57AIyObegmjtF.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649952686TIsmuP1E5KHCZl4k.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649952686TIsmuP1E5KHCZl4k.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649952686wlRSLNCpyoErqKbK.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649952686wlRSLNCpyoErqKbK.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044BLpyZaUjL7Aqwnk7.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044BLpyZaUjL7Aqwnk7.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044c9hGMdObievrBeO8.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044c9hGMdObievrBeO8.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044Jques08qac3554nl.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044Jques08qac3554nl.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044k9DOI4quB7owW5tL.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044k9DOI4quB7owW5tL.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044NZ7o137yXsZiAFHM.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044NZ7o137yXsZiAFHM.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044wj3vYigjBVcBpFYJ.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044wj3vYigjBVcBpFYJ.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044x9MRnoXojT9TXAXa.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044x9MRnoXojT9TXAXa.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044y1XLe3PvebWk32DP.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044y1XLe3PvebWk32DP.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044YUYM4OSWJFiBskKd.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044YUYM4OSWJFiBskKd.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649954044znwwGTvtRW8lXr2k.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649954044znwwGTvtRW8lXr2k.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/164995548702AFxXLAYfWT2lQg.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\164995548702AFxXLAYfWT2lQg.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16499554876epoVIypcMxjVYMu.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16499554876epoVIypcMxjVYMu.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649955487dpFN3DZCgmKxHpqK.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649955487dpFN3DZCgmKxHpqK.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649955487fDCQ5qfkAKQYsYhA.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649955487fDCQ5qfkAKQYsYhA.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649955487h98bfz4PO42vL91w.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649955487h98bfz4PO42vL91w.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649955487LxfSHnruyln3vs6m.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649955487LxfSHnruyln3vs6m.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649955487N1MLs6xkKspJS09W.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649955487N1MLs6xkKspJS09W.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649955487TGz69E74hAr3C0j9.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649955487TGz69E74hAr3C0j9.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649955487wjXJ5l6rImk1q7B4.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649955487wjXJ5l6rImk1q7B4.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1649955487wVHgk60BepATPWIh.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1649955487wVHgk60BepATPWIh.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/16505437218XKGliENpNpZdMRd.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\16505437218XKGliENpNpZdMRd.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721D54rk7ayIVMGN8DQ.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721D54rk7ayIVMGN8DQ.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721eSkAHQ8KdX4Eovl8.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721eSkAHQ8KdX4Eovl8.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721ewZKY9iiwjnoVPg8.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721ewZKY9iiwjnoVPg8.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721OfRlWEqwtrCy1wII.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721OfRlWEqwtrCy1wII.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721ONzRIbApPareiFZu.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721ONzRIbApPareiFZu.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721Op7u5MMjeOo0Qpv2.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721Op7u5MMjeOo0Qpv2.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721RkGGkqSOBGe9U60B.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721RkGGkqSOBGe9U60B.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721TXMFrP6iyPaZyChk.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721TXMFrP6iyPaZyChk.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1650543721ZrOY6K3j10cDMEAa.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1650543721ZrOY6K3j10cDMEAa.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1669002750NVN6zJK81ncWeswV.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1669002750NVN6zJK81ncWeswV.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1669002750Q6xo35nj0oUWbPaF.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1669002750Q6xo35nj0oUWbPaF.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1669002750T5q5oQAC6yrm7mrD.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1669002750T5q5oQAC6yrm7mrD.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/images/1669002873K9Q1U6O2gccmJvxq.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\images\1669002873K9Q1U6O2gccmJvxq.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/line.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\line.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/logo.png
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\logo.png
+Content Type: image/png
+
+Uri: https://webtours.kz/images/m1.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\m1.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/m2.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\m2.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/m3.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\m3.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/m4.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\m4.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/m5.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\m5.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/m6.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\m6.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/m7.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\m7.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/m8.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\m8.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/photos-bg.jpg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\photos-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://webtours.kz/images/pl1.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\pl1.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/pl2.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\pl2.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/pl3.svg
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\pl3.svg
+Content Type: image/svg+xml
+
+Uri: https://webtours.kz/images/plain-min.png
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\plain-min.png
+Content Type: image/png
+
+Uri: https://webtours.kz/images/plain1.png
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\plain1.png
+Content Type: image/png
+
+Uri: https://webtours.kz/images/plain2.png
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\plain2.png
+Content Type: image/png
+
+Uri: https://webtours.kz/images/sl1-pic-1.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\sl1-pic-1.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/sl1.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\sl1.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t1.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t1.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t10.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t10.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t11.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t11.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t12.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t12.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t2.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t2.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t3.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t3.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t4.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t4.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t5.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t5.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t6.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t6.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t7.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t7.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t8.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t8.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/images/t9.webp
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\images\t9.webp
+Content Type: image/webp
+
+Uri: https://webtours.kz/js/my.js?t=1676116951
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\js\my.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/js/my.js?t=1676116953
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\js\my-1.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/js/my.js?t=1676116956
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\js\my-2.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/js/my.js?t=1676116957
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\js\my-3.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/js/my.js?t=1676116958
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\js\my-4.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/plugins/bootstrap/css/bootstrap.min.css
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\plugins\bootstrap\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://webtours.kz/plugins/bootstrap/js/bootstrap.bundle.min.js
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\plugins\bootstrap\js\bootstrap.bundle.min.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/plugins/jquery/jquery-3.2.0.min.js
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\plugins\jquery\jquery-3.2.0.min.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/plugins/swiper/swiper.min.css
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\plugins\swiper\swiper.min.css
+Content Type: text/css
+
+Uri: https://webtours.kz/plugins/swiper/swiper.min.js
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\plugins\swiper\swiper.min.js
+Content Type: application/javascript
+
+Uri: https://webtours.kz/reviews
+File Name: C:\Downloaded Web Sites\webtours.kz\webtours.kz\reviews.html
+Content Type: text/html
+

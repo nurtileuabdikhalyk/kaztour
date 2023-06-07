@@ -1,0 +1,228 @@
+﻿{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="page-main" style="background-image: url( {% static 'images\images\1669002750T5q5oQAC6yrm7mrD.jpg' %});">
+    <div class="container">
+        {% if path == 'ru' %}
+        <div class="for-title">
+        <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+          Контакты
+        </h2>
+        <p class="mt-3 fs-xl-22 fs-md-18 fs-16">Свяжитесь с нами</p>
+      </div>
+        {% elif path == 'en' %}
+        <div class="for-title">
+        <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+          Contacts
+        </h2>
+        <p class="mt-3 fs-xl-22 fs-md-18 fs-16">Contact us</p>
+      </div>
+        {% else %}
+      <div class="for-title">
+        <h2 class="title fs-xl-40 fs-md-30 fs-24 fw-bold">
+          Байланыс    
+        </h2>
+        <p class="mt-3 fs-xl-22 fs-md-18 fs-16">Бізбен байланысқа шығыңыз</p>
+      </div>
+        {% endif %}
+    </div>
+  </section>   
+
+<style>
+
+.form-contact label {
+    font-size: 14px
+}
+
+.form-contact .form-group {
+    margin-bottom: 30px
+}
+
+.form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 0px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent
+}
+
+.form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+.form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #999999
+}
+
+.form-contact textarea {
+    border-radius: 0px;
+    height: 100% !important
+}
+
+.boxed-btn2 {
+  background:#2b4f7e ;
+  color: #ffffff;
+  display: inline-block;
+  padding: 18px 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  border: 0;
+  border: 1px solid #1b1747;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* line 166, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+.boxed-btn2:hover {
+  background: #da6f6f;
+  color: #131313 !important;
+}
+
+/* line 170, ../../Arafath/CL/january 2020/243.Education/HTML/scss/_btn.scss */
+.boxed-btn2:focus {
+  outline: none;
+}    
+
+</style>
+
+  <section class="country-inner">
+
+        <div class="container">
+            <div class="row justify-content-end">
+                {% if path == 'ru' %}
+                <h2 class="contact-title">Напишите нам</h2>
+                {% elif path == 'en' %}
+                <h2 class="contact-title">Write to us</h2>
+                {% else %}
+                            <h2 class="contact-title">Бізге хат жазыңыз</h2>
+                  {% endif %}
+                        </div>
+            {% if path == 'ru' %}
+                        <div class="col-lg-8">
+                            <form class="form-contact contact_form"  action="{% url 'home' %}" method="GET" >
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control w-100" name="message"  cols="30" rows="9" placeholder="Текст"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="name"  type="text"  placeholder="Имя">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="email"  type="email"   placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <input class="form-control" name="subject"  type="text"  placeholder="Тема">
+                                        </div>
+                                    </div>
+
+
+                                <div class="form-group mt-3">
+                                    <button type="submit" onclick="myFunction()" class="boxed-btn2">Отправить</button>
+
+                                    <script>
+                                      function myFunction() {
+                                         alert("вы успешно зарегистрированы")
+                                                  }
+                                            </script>
+                                </div>
+                              </div>
+                            </form>
+
+        </div>
+                {% elif path == 'en' %}
+
+                        <div class="col-lg-8">
+                            <form class="form-contact contact_form"  action="{% url 'home' %}" method="GET" >
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control w-100" name="message"  cols="30" rows="9" placeholder="Text"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="name"  type="text"  placeholder="Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="email"  type="email"   placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <input class="form-control" name="subject"  type="text"  placeholder="Topic">
+                                        </div>
+                                    </div>
+
+
+                                <div class="form-group mt-3">
+                                    <button type="submit" onclick="myFunction()" class="boxed-btn2">Send</button>
+
+                                    <script>
+                                      function myFunction() {
+                                         alert("you have successfully registered")
+                                                  }
+                                            </script>
+                                </div>
+                              </div>
+                            </form>
+
+        </div>
+            {% else %}
+                        <div class="col-lg-8">
+                            <form class="form-contact contact_form"  action="{% url 'home' %}" method="GET" >
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <textarea class="form-control w-100" name="message"  cols="30" rows="9" placeholder="Хат тексті"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="name"  type="text"  placeholder="Атыңыз">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <input class="form-control valid" name="email"  type="email"   placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <input class="form-control" name="subject"  type="text"  placeholder="Тақырып">
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                <div class="form-group mt-3">
+                                    <button type="submit" onclick="myFunction()" class="boxed-btn2">Жіберу</button>
+                                    
+                                    <script>
+                                      function myFunction() {
+                                         alert("сіз сәтті түрде тіркелдіңіз")
+                                                  }
+                                            </script>
+                                </div>
+                              </div>
+                            </form>
+                        
+        </div>
+            {% endif %}
+    </div>
+</section>
+
+<br><br>
+{% endblock %}
